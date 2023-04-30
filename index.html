@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet" />
+    <title>Cash Register</title>
+</head>
+<body>
+    <h1 id="head">Cash Register App</h1>
+    <p id="about">Enter the bill amount and cash given by the customer to know minimum number of notes to return.</p>
+    <h3>Bill Amount:</h3>
+    <textarea id="bill-amount" placeholder="Enter the Bill Amount"></textarea>
+    <h3>Cash Given:</h3>
+    <textarea id="cash-given" placeholder="Enter the Cash given"></textarea>
+    <button id="btn-check">Check</button>
+    <p id="error-message"></p>
+    <h3>Return Change</h3>
+    <table>
+        <tbody>
+            <tr>
+                <th>No. of Notes to be given</th>
+                <td class="notes-need-to-returned"></td>
+                <td class="notes-need-to-returned"></td>
+                <td class="notes-need-to-returned"></td>
+                <td class="notes-need-to-returned"></td>
+                <td class="notes-need-to-returned"></td>
+                <td class="notes-need-to-returned"></td>
+                <td class="notes-need-to-returned"></td>
+            </tr>
+            <tr>
+                <th>Denomination</th>
+                <td class="notes">2000</td>
+                <td class="notes">500</td>
+                <td class="notes">100</td>
+                <td class="notes">20</td>
+                <td class="notes">10</td>
+                <td class="notes">5</td>
+                <td class="notes">1</td>
+            </tr>
+        </tbody>
+    </table>
+    <script src="app.js"></script>
+</body>
+</html>
